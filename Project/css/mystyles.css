@@ -1,0 +1,198 @@
+    @font-face {
+        font-family: yekan;
+        src: url('../fonts/yekan.woff');
+    }
+    
+    body {
+        font-family: yekan;
+    }
+    
+    .container-fluida {
+        max-width: 1220px;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    #head-tools {
+        font-size: 26px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    #head-tools ul {
+        /* default margin bottom =  16px */
+        margin-bottom: 10px;
+    }
+    
+    #head-tools ul a {
+        color: #777;
+    }
+    
+    #head-tools ul a:hover {
+        color: red;
+    }
+    
+    #head-tools ul i {
+        margin-left: 8px;
+    }
+    
+    #head-tools li .badge {
+        position: relative;
+        top: -10px;
+        right: -18px;
+        font-size: 14px;
+    }
+    
+    #basket a {
+        color: white;
+        border-radius: 5px;
+        display: flex;
+        overflow: hidden;
+    }
+    
+    #basket .basket-icon {
+        background-color: #6c5;
+        padding: 5px 15px;
+    }
+    
+    #basket .basket-text {
+        padding: 5px 15px;
+        background-color: #4b5;
+    }
+    
+    .my-shadow {
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    }
+    
+    #logo {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    @media(min-width:768px) {
+        #head-tools {
+            font-size: 12px;
+            padding: 6px 15px 12px 15px;
+            /* all soton ha default padding right and left = 15px */
+        }
+        #top-menu nav {
+            padding: 0px;
+        }
+    }
+    
+    #head-tools li {
+        margin-left: 40px;
+    }
+    
+    #head-tools #basket {
+        font-size: 14px;
+    }
+    
+    #head-tools #basket .badge {
+        font-size: 14px;
+        /* badge font-size is 3/4 parent font-size */
+    }
+    
+    #search {
+        width: 300px;
+    }
+    
+    @media(min-width:992px) {
+        #search {
+            width: 440px;
+        }
+    }
+    
+    #top-menu {
+        font-size: 13px;
+        position: relative;
+        /*  this position not static becaus biofte roy onsore static v behtarin halat relative hast ke hich jabejaee toy onsor eejad nemikone */
+        /* none static miofte roy anasore static*/
+    }
+    
+    #top-menu nav {
+        /* padding default top & bottom navbar is 8px or 0.5rem and right & left is 16px or 1 rem */
+        padding: 8px;
+    }
+    
+    #top-menu .nav-link {
+        color: #555;
+        padding: 6px 15px;
+    }
+    
+    #top-menu .nav-link:hover {
+        color: black;
+    }
+    
+    main {
+        background-color: #eeeff1;
+        padding: 15px 0;
+        /* avali mishe bala v paeen dovomi ham mishe chap v raast */
+    }
+    
+    .section-box {
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: white;
+        margin-bottom: 12px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
+    }
+    
+    .section-header {
+        background-color: #f7f9fa;
+    }
+    
+    .section-header h3 {
+        padding: 10px 25px;
+        font-size: 14px;
+        margin-bottom: 0;
+        color: #494;
+    }
+    
+    .section-box .box-content {
+        padding: 10px;
+    }
+    
+    #offer h4 {
+        font-size: 14px;
+    }
+    
+    .media-body h6 {
+        font-size: 12px;
+    }
+    
+    .media-body span {
+        font-size: 11px;
+    }
+    
+    .media-body a {
+        color: #333;
+    }
+    
+    .media-body a:hover {
+        color: red;
+    }
+    
+    .media img:hover {
+        box-shadow: 0 0 4px 2px rgba(255, 0, 0, 0.3);
+    }
+    
+    #top-slider {
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 15px;
+        /* position is relative because betonim be footer nesbate be slider mogheeat bedim yni ba top left right v bottom mogheeate onsor ro moshakhas konim*/
+    }
+    /* row ha margin left & right is -15px va col ha padding  left & right +15px hast */
+    /* v in baaes mishe vaghti ma  column ha ro darone satr ha gharar midim in + & - hamdigi ro khonsa bokonan v hich fasele ezafi bevojod nayad*/
+    
+    #top-slider footer {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(60, 70, 90, 0.8);
+    }

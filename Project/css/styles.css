@@ -1,0 +1,308 @@
+body {
+    font-family: yekan;
+}
+
+.container-fluid {
+    max-width: 1220px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#head-tools {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#head-tools ul {
+    margin-bottom: 10px;
+}
+
+#head-tools ul a {
+    color: #777;
+}
+
+#head-tools ul a:hover {
+    color: red;
+}
+
+#head-tools ul i {
+    margin-left: 8px;
+}
+
+#head-tools li .badge {
+    position: relative;
+    top: -10px;
+    right: -18px;
+    font-size: 14px;
+}
+
+#basket a {
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+}
+
+#basket .basket-icon {
+    background-color: #6c6;
+    padding: 5px 15px;
+}
+
+#basket .basket-text {
+    padding: 5px 15px;
+    background-color: #4b5;
+}
+
+.my-shadow {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#top-menu {
+    font-size: 13px;
+    position: relative;
+}
+
+#top-menu nav {
+    padding: 8px;
+}
+
+#top-menu .nav-link {
+    color: #555;
+    padding: 6px 15px;
+}
+
+#top-menu .nav-link:hover {
+    color: black;
+}
+
+main {
+    background-color: #eeeff1;
+    padding: 15px 0;
+}
+
+.section-box {
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 12px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.section-header {
+    background-color: #f7f9fa;
+}
+
+.section-header h3 {
+    padding: 10px 25px;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #494;
+}
+
+.section-box .box-content {
+    padding: 10px;
+}
+
+#offer h4 {
+    font-size: 14px;
+}
+
+.media-body h6 {
+    font-size: 12px;
+}
+
+.media-body span {
+    font-size: 11px;
+}
+
+.media-body a {
+    color: #333;
+}
+
+.media-body a:hover {
+    color: red;
+}
+
+.media img:hover {
+    box-shadow: 0 0 4px 2px rgba(255, 0, 0, 0.3);
+}
+
+#top-slider {
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#top-slider footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(60, 70, 90, 0.8);
+}
+
+.carousel-indicators {
+    position: static;
+}
+
+#top-slider footer ol {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 50px;
+}
+
+#top-slider footer li {
+    width: 20%;
+    font-size: 12px;
+    color: white;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    transition-duration: 0.2s;
+    text-indent: 0;
+    background-color: transparent;
+    margin: 0;
+}
+
+#top-slider footer li.active {
+    background-color: white;
+    color: #444;
+}
+
+#top-slider footer li.active::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 50%;
+    margin-right: -10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: white;
+}
+
+#banners {
+    margin: 0 -4px;
+}
+
+.owl-carousel {
+    padding: 10px 0;
+    border: 1px solid #eee;
+}
+
+.owl-carousel .card-img-top {
+    padding: 10px;
+}
+
+.owl-carousel h6 {
+    font-size: 12px;
+}
+
+.owl-carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    font-size: 50px !important;
+    outline: none;
+    color: #777 !important;
+}
+
+.owl-carousel .owl-nav .owl-next {
+    left: -6px;
+}
+
+.owl-carousel .owl-nav button:hover {
+    color: black !important;
+}
+
+#top-footer {
+    font-size: 13px;
+}
+
+#bottom-footer {
+    background-color: #111;
+    padding-top: 30px;
+}
+
+#bottom-footer h5 {
+    font-size: 16px;
+    color: #eee;
+    padding-bottom: 15px;
+}
+
+#bottom-footer ul a {
+    color: #bbb;
+    font-size: 14px;
+    line-height: 2.5em;
+}
+
+#bottom-footer ul a:hover {
+    color: white;
+}
+
+#bottom-footer .links {
+    margin-top: 45px;
+}
+
+#bottom-footer .links a {
+    background-color: #333;
+    color: white;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0 8px;
+    border-radius: 50%;
+    line-height: 2.25em;
+    transition-duration: 0.3s;
+}
+
+#bottom-footer .links a:hover {
+    background-color: #6d6;
+}
+
+#bottom-footer input {
+    max-width: 400px;
+}
+
+@media (min-width: 768px) {
+    #head-tools {
+        font-size: 12px;
+        padding: 6px 15px 12px 15px;
+    }
+    #head-tools li {
+        margin-left: 40px;
+    }
+    #head-tools #basket {
+        font-size: 14px;
+    }
+    #head-tools #basket .badge {
+        font-size: 14px;
+    }
+    #search {
+        width: 300px;
+    }
+    #top-menu nav {
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    #search {
+        width: 440px;
+    }
+}
+
+#notification {
+    color: red;
+    display: inline;
+    cursor: pointer;
+}
